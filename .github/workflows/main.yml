@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: pgkuroneru/hello-world-docker-action@v1
+      uses: pgkuroneru/hello-world-docker-action@v2
       with:
         who-to-greet: 'pgkuroneru'
     # Use the output from the `hello` step
